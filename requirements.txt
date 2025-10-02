@@ -1,0 +1,12 @@
+tqdm==4.65.0
+Flask==2.0.0
+Werkzeug==2.0.3
+tensorflow==2.12.0
+librosa==0.10.0
+opencv-python==4.7.0.68
+pydub==0.25.1
+numpy==1.23.5
+pandas==2.0.3
+scikit-learn==1.2.2
+joblib==1.2.0
+ffmpeg-python==0.2.0
