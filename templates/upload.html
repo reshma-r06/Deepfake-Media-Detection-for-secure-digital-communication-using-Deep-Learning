@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deepfake Detection</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .container { max-width: 600px; margin: 0 auto; }
+        h1 { color: #333; }
+        .upload-box { border: 2px dashed #ccc; padding: 20px; text-align: center; margin: 20px 0; }
+        button { background: #4CAF50; color: white; padding: 10px 15px; border: none; cursor: pointer; }
+        button:hover { background: #45a049; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Deepfake Audio Detection</h1>
+        <form method="post" enctype="multipart/form-data">
+            <div class="upload-box">
+                <input type="file" name="file" accept=".mp4" required>
+                <p>Upload an MP4 video file to analyze</p>
+            </div>
+            <button type="submit">Analyze</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analysis Result</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .container { max-width: 600px; margin: 0 auto; }
+        h1 { color: #333; }
+        .result-box { padding: 20px; margin: 20px 0; border-radius: 5px; }
+        .real { background: #d4edda; color: #155724; }
+        .fake { background: #f8d7da; color: #721c24; }
+        .back-btn { display: inline-block; margin-top: 20px; padding: 10px 15px; background: #007bff; color: white; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Analysis Result</h1>
+        <div class="result-box {{ 'real' if result == 'Real' else 'fake' }}">
+            <h2>Result: {{ result }}</h2>
+            <p>Confidence: {{ confidence }}%</p>
+        </div>
+        <a href="/" class="back-btn">Analyze Another</a>
+    </div>
+</body>
+</html>
